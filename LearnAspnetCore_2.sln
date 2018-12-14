@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAspnetCore_2_MVC", "LearnAspnetCore_2\LearnAspnetCore_2_MVC.csproj", "{4A4A6571-EED0-41B2-BDF2-FF8911F79190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnAspnetCore_2_Page", "LearnAspnetCore_2_Page\LearnAspnetCore_2_Page.csproj", "{C646E982-EDEE-40B9-9AC2-D5973211440C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A4A6571-EED0-41B2-BDF2-FF8911F79190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4A6571-EED0-41B2-BDF2-FF8911F79190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4A6571-EED0-41B2-BDF2-FF8911F79190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4A6571-EED0-41B2-BDF2-FF8911F79190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C646E982-EDEE-40B9-9AC2-D5973211440C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C646E982-EDEE-40B9-9AC2-D5973211440C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C646E982-EDEE-40B9-9AC2-D5973211440C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C646E982-EDEE-40B9-9AC2-D5973211440C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53AC8453-5EFC-416C-873B-656DCCC14D61}
+	EndGlobalSection
+EndGlobal

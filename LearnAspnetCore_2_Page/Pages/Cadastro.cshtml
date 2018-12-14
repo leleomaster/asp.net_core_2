@@ -1,0 +1,43 @@
+﻿@page
+@model LearnAspnetCore_2_Page.Pages.CadastroModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Cadastro";
+}
+
+<form method="post">
+    <h2>Cadastro</h2>
+
+    <div asp-validation-summary="All"></div>
+    <div id="div-cadastro">
+        <label>
+            Nome:
+            <input type="text" asp-for="Customer.Nome" />
+        </label>
+        <label>
+            CPF:
+            <input type="text" asp-for="Customer.Cpf" />
+        </label>
+        <label>
+            Estado:
+            <input type="text" asp-for="Customer.Estado" />
+        </label>
+        <label>
+            Cidade:
+            <input type="text" asp-for="Customer.Cidade" />
+        </label>
+        <label>
+            País:
+            <input type="text" asp-for="Customer.Pais" />
+        </label>
+        <label>
+            Telefone:
+            <input type="text" asp-for="Customer.Telefone" />
+        </label>
+        <label>
+            <input type="submit" value="Cadastrar" />
+        </label>
+    </div>
+
+</form>
