@@ -18,7 +18,7 @@ namespace LearnAspnetCore_2_Page.Pages
             _db = db;
         }
 
-        [BindProperty]
+        [BindProperty()]
         public Customer Customer{ get; set; }
         
         public void OnGet()
@@ -33,7 +33,7 @@ namespace LearnAspnetCore_2_Page.Pages
                 return Page();
             }
 
-            _db.Customer.Add(Customer);
+            _db.Customers.Add(Customer);
             await _db.SaveChangesAsync();
 
             return RedirectToPage("/Index");

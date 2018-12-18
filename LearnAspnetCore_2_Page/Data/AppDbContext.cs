@@ -12,9 +12,9 @@ namespace LearnAspnetCore_2_Page.Data
         public AppDbContext(DbContextOptions options)
             : base(options)
         {
-
+            
         }
 
-        public DbSet<Customer> Customer { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     }
 }
